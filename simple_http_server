@@ -55,7 +55,7 @@ void app_main(void)
   configuracao_uart();
   ESP_ERROR_CHECK(nvs_flash_init());
   wifi_init();
-  ESP_ERROR_CHECK(wifi_connect_sta("Casa Campos", "17Campos03", 10000));
+  ESP_ERROR_CHECK(wifi_connect_sta("Your WIFI", "Change this", 10000));
 
   init_server();
 leitura_gps:
